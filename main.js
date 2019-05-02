@@ -85,7 +85,7 @@ function load_data(){
    $.ajax({
         type:"POST",
      
-        url:"http://api.apixu.com/v1/forecast.json?key=d51ba43b8b0f440d99a122552192904&q=$" + latt + ",$"+ lngg + "&days=7",
+        url:"https://api.apixu.com/v1/forecast.json?key=d51ba43b8b0f440d99a122552192904&q=$" + latt + ",$"+ lngg + "&days=7",
 
       //  data:data,
         success: function(data) {
